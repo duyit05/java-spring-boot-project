@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/osahaneat
+    username: root
+    password: 123123za
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  jwt:
+    privateKey : ti/ZuXrEzJ9EakZnLdeRbpjY2OOHSa/VizaoWP0wJFQ=
+
+fileUpload:
+    rootPath : C:\Users\DELL\Desktop\upload
